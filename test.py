@@ -29,7 +29,7 @@ if __name__ == "__main__":
     mask = cv2.imread(args.mask)
     # mask = cv2.resize(mask, (0,0), fx=0.5, fy=0.5)
 
-    assert image.shape == mask.shape
+    #assert image.shape == mask.shape
 
     h, w, _ = image.shape
     grid = 8
